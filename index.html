@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" data-textdirection="ltr" >
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="image/x-png" href="img/favicon.png">
+    <title>Annuaire</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+<header class="main-header">
+    <div class="main-header__logo">
+        <a href="#" class="main-header__logo_a">
+            Data-achat.io
+        </a>
+    </div>
+    <p class="main-header__button-container">
+        <a href="#" class="main-header__button button button__transparent">EN SAVOIR PLUS</a>
+    </p>
+</header>
+
+<main class="main-container">
+
+    <section class="hero content-block">
+        <h1 class="hero__title">TROUVER FACILEMENT VOTRE MAGASIN, PRÊT DE CHEZ-VOUS !</h1>
+        <p class="hero__sub-title">En seulement 2 CLICKS ! avec les données du Gouvernement Français</p>
+        <p class="hero__button button-container">
+            <a href="#search-form" class="button button__orange">MOTEUR DE RECHERCHE</a>
+            <a href="#map" class="button button__green ">CARTE</a>
+        </p>
+    </section>
+
+
+    <section class="search ">
+
+        <div class="content-block">
+            <form action="" method="post" class="search__form " id="search-form">
+                <select>
+                    <option></option>
+                </select>
+                <input type="text" name="postcode" value="" placeholder="CODE POSTAL">
+                <input type="submit" class="button button__blue" value="RECHERCHER">
+            </form>
+
+            <p class="search__note ">Sélectionnez une thématique et un code postal pour découvrir les magasins à proximité</p>
+
+            <div class="search__count">Il a été trouvé <span></span> pièces</div>
+
+            <div class="search__result">
+                <ul class="search__shop-list ">
+                </ul>
+
+                <p class="seacrh__following "><button class="button__link">SUIVANT</button></p>
+
+                <h2 class="search__map-title content-block__title">Recherche par carte</h2>
+
+                <div class="search__map" id="map"></div>
+            </div>
+
+            <div class="search__error">Rien n'a été trouvé. Essayons encore</div>
+            <div class="search__loading"></div>
+        </div>
+    </section>
+
+    <!--<textarea style="width:1000px; height: 400px;"></textarea>-->
+
+    <section class="site-function content-block">
+        <h3 class="site-function__title content-block__title">COMMENT SE SITE FONCTION</h3>
+        <article class="site-function__text">
+            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+        </article>
+    </section>
+
+</main>
+
+<footer class="main-footer">
+    <section class="main-footer__container">
+        <p class="main-footer__contacts">
+            <a href="#" class="main-footer__logo_a">
+                Data-achat.io
+            </a>
+        </p>
+        <p class="main-footer__links">
+            <a href="legacy.html">Mentions légales</a>
+        </p>
+    </section>
+</footer>
+
+<script>
+    var countToShow = 15;
+    var radius = 10000;
+    var mapZoom = 12;
+</script>
+<script src="https://googlemaps.github.io/js-marker-clusterer/src/markerclusterer.js"></script>
+<script src="js/script.min.js"></script>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?libraries=geometry&key=AIzaSyBTOETw2iw8_wgU3uY8OTWbk3PqjYPwtt4&callback=initMain&language=fr&region=fr"></script>
+
+</body>
+</html>

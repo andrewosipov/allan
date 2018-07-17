@@ -1,0 +1,39 @@
+.main-header__logo{
+  flex: 0 0 155px;
+  width: 155px;
+  height: 30px;
+}
+
+.main-header__logo_a{
+  font-size: 20px;
+  color: $blue-dark;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+
+@media (max-width: 1200px) {
+
+
+
+}
+
+@media ( max-width: 992px ) {
+
+
+
+}
+
+@media ( max-width: 768px ) {
+
+
+
+}
+
+@media ( max-width: 576px ) {
+
+  .main-header__logo{
+    display: inline-block;
+  }
+
+}

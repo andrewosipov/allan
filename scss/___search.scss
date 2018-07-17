@@ -1,0 +1,306 @@
+
+.search{
+  position: relative;
+}
+
+.search:before{
+  content: "";
+  display: block;
+  background: $blue-dark;
+  background: linear-gradient(to right, #40bcdf 0%,#172d8d 100%);;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  width: 100%;
+  height: 304px;
+}
+
+.search:after{
+  content: "";
+  display: block;
+  background: $white;
+  height: 70px;
+  width: 100%;
+  z-index: 0;
+  transform: skewY(-1deg);
+  position: absolute;
+  top: 270px;
+}
+
+.search__map-title{
+  background: $grey-light;
+  margin: 60px 0 30px 0;
+  padding: 5px 0 18px 30px;
+}
+
+.search__form{
+
+  padding: 100px 20px 120px 20px;
+  display: flex;
+}
+
+.search__form select{
+  flex: 3;
+  margin: 0 10px 0 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+.select2-container .select2-selection--single{
+  height: 64px;
+  border: none;
+}
+
+.select2-dropdown{
+  border: none;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+  line-height: 64px;
+  padding-right: 64px;
+  padding-left: 20px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+  top: 1px;
+  width: 64px;
+  height: 62px;
+  border-left: 1px solid $grey-light;
+}
+
+.search__form input[type=text]{
+  flex: 1;
+  margin: 0 10px 0 20px;
+  padding: 10px 10px 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search__form input[type=submit]{
+  flex: 1;
+  margin: 0 10px 0 10px;
+  border-radius: 5px;
+}
+
+.search__note{
+  text-align: center;
+  font-style: italic;
+  color: $grey-dark;
+  margin: 30px 0 30px 0;
+  position: relative;
+  z-index: 10;
+}
+
+.search__shop-list{
+  padding: 0;
+  margin: 0;
+}
+
+.search__result{
+  display: none;
+}
+
+.search__count{
+  display: none;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search__count span{
+  color: $blue-dirty;
+  font-weight: bolder;
+}
+
+.search__error{
+  display: none;
+  color: $red;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.search__loading{
+  height: 30px;
+  background: url(../img/ajax-loader.gif) 50% 50% no-repeat;
+  display: none;
+}
+
+
+.search.result-ok .search__result{
+  display: block;
+}
+
+.search.result-ok .search__count{
+  display: block;
+}
+
+.search.result-error .search__error{
+  display: block;
+}
+
+.search.result-loading .search__loading{
+  display: block;
+}
+
+
+
+.search__shop-list{
+  /*height: 755px;
+  overflow: hidden;*/
+}
+
+.search__shop-list-item{
+  list-style: none;
+  margin: 0 0 0px 0;
+  padding: 0 0 0px 0;
+  display: flex !important;
+  justify-content: space-between;
+  border-bottom: 1px solid $grey-light;
+  position: relative;
+}
+
+.search__shop-list-item.hide{
+  display: none !important;
+}
+
+.search__shop-list-item:last-of-type{
+  border-bottom: none;
+}
+
+.search__shop-img{
+  flex: 0 0 150px;
+  width: 150px;
+  margin-right: 50px;
+}
+
+.search__shop-info{
+  flex: 1;
+}
+
+.search__shop-title{
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 30px;
+  padding: 5px 40px 0 0;
+}
+
+.search__shop-address{
+  text-transform: uppercase;
+}
+
+.search__shop-address:before{
+  content: "";
+  display: block;
+  border-top: 2px solid $grey-middle;
+  width: 50px;
+}
+
+.search__shop-distance{
+  margin-top: 20px;
+}
+
+.search__map-link{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.search__map-link a{
+  color: transparent;
+  font-size: 0;
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: url(../img/icons/googlemap-25x25.png) ;
+}
+
+.seacrh__following{
+  text-align: right;
+  display: none;
+}
+
+.search.result-follow .seacrh__following{
+  display: block;
+}
+
+@media (max-width: 1200px) {
+
+
+
+}
+
+@media ( max-width: 992px ) {
+
+
+
+}
+
+@media ( max-width: 768px ) {
+
+  .search__shop-img{
+    margin-right: 20px;
+  }
+
+}
+
+@media ( max-width: 576px ) {
+
+  .search:after{
+    content: none;
+  }
+
+  .search__form{
+    flex-direction: column;
+    padding: 60px 20px 60px 20px;
+  }
+
+  .search__form select, .search__form input[type=text], .search__form input[type=submit]{
+    margin: 10px 0 10px 0;
+  }
+
+  .search__shop-list-item{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+  }
+
+  .search__shop-img{
+    margin-right: 0px;
+  }
+
+  .search__shop-info{
+    text-align: center;
+  }
+
+  .search__shop-title{
+    padding: 10px 0 0px 0;
+    margin-bottom: 0;
+    font-size: 25px;
+  }
+
+  .search__shop-address:before{
+    margin: 0px auto 10px auto;
+  }
+
+  .search__shop-distance{
+    margin-top: 10px;
+  }
+
+  .search__map-link{
+    position: relative;
+    right: auto;
+    top: auto;
+    margin: 0 auto 0 auto;
+  }
+
+  .search__map-link a{
+    margin: 0 auto 0 auto;
+  }
+
+  .seacrh__following{
+    text-align: center;
+  }
+
+}

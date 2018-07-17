@@ -1,0 +1,38 @@
+.modal-header{
+  border: none;
+  background: $content-grey;
+  border-radius: 10px;
+}
+
+.modal-header__white{
+  background: $white;
+}
+
+.modal-body{
+  text-align: center;
+  background: $content-grey !important;
+  border-radius: 10px;
+}
+
+.modal-body__white{
+  background: $white !important;
+}
+
+.modal-body__grey{
+  background: $content-grey !important;
+}
+
+/* <popup > */
+
+.popup{
+  background: $content-grey;
+  padding: 30px 30px 30px 30px;
+  border-radius: 5px;
+  width: 400px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  box-shadow: $box-shadow;
+}
+
+/* <popup /> */

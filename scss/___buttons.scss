@@ -1,0 +1,111 @@
+
+.button-container{
+  text-align: center;
+  position: relative;
+}
+
+.button{
+  text-decoration: none;
+  background: $blue;
+  color: $white;
+  text-align: center;
+  padding: 20px 50px 20px 50px;
+  font-size: 16px;
+  font-weight: normal;
+  border: none;
+  border-radius: 10px;
+  transition: $transition-button;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button:hover, .button:focus{
+  background: $blue-light;
+  color: $white;
+  outline: none;
+}
+
+.button__big{
+  font-size: 24px;
+  padding: 20px 80px 20px 80px;
+}
+
+.button__mini{
+  font-size: 14px;
+  padding: 20px 0 20px 0;
+  border-radius: 5px;
+}
+
+.button__transparent{
+  font-size: 14px;
+  padding: 10px 15px 10px 15px;
+  border-radius: 50px;
+  border: 1px solid $blue;
+  color: $blue;
+  display: inline-block;
+  background: transparent;
+}
+
+.button__link{
+  color: $blue-dirty;
+  background: none;
+  border: none;
+}
+
+.button__transparent:hover{
+  color: $white;
+  background: $blue;
+}
+
+.button__red{
+  background: $red;
+}
+
+.button__red:hover, .button__red:focus, .button__red:active{
+  background: $red-light;
+}
+
+.button__white-hover-shadow:hover, .button__white-hover-shadow:focus, .button__white-hover-shadow:active{
+  box-shadow: $hover-box-shadow-white;
+}
+
+.button__orange{
+  background: $orange;
+}
+
+.button__orange:hover, .button__orange:focus, .button__orange:active{
+  background: $orange-light;
+}
+
+.button__green{
+  background: $green;
+}
+
+.button__green:hover, .button__green:focus, .button__green:active{
+  background: $green-light;
+}
+
+
+@media (max-width: 1200px) {
+
+
+
+}
+
+@media ( max-width: 992px ) {
+
+
+
+}
+
+@media ( max-width: 768px ) {
+
+
+
+}
+
+@media ( max-width: 576px ) {
+
+
+
+}

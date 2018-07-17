@@ -1,0 +1,185 @@
+
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/Flaticon.woff") format("woff"),
+  url("../fonts/Flaticon.ttf") format("truetype"),
+  url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+  font-family: Flaticon;
+  font-size: 13px;
+  font-style: normal;
+  margin-left: 0px;
+}
+
+.flaticon-ruble-3:before { content: "\f100"; }
+.flaticon-ruble-2:before { content: "\f101"; }
+.flaticon-ruble-currency-sign:before { content: "\f102"; }
+.flaticon-ruble-1:before { content: "\f103"; }
+.flaticon-ruble:before { content: "\f104"; }
+.flaticon-share:before { content: "\f105"; }
+.flaticon-arrows-6:before { content: "\f106"; }
+.flaticon-google-plus-symbol:before { content: "\f107"; }
+.flaticon-vk-social-network-logo:before { content: "\f108"; }
+.flaticon-e-mail-envelope:before { content: "\f109"; }
+.flaticon-interface-6:before { content: "\f10a"; }
+.flaticon-call-answer:before { content: "\f10b"; }
+.flaticon-smartphone-call:before { content: "\f10c"; }
+.flaticon-pinterest-logo:before { content: "\f10d"; }
+.flaticon-social-1:before { content: "\f10e"; }
+.flaticon-share-files:before { content: "\f10f"; }
+.flaticon-interface-5:before { content: "\f110"; }
+.flaticon-view:before { content: "\f111"; }
+.flaticon-menu-1:before { content: "\f112"; }
+.flaticon-wrench-1:before { content: "\f113"; }
+.flaticon-screwdriver:before { content: "\f114"; }
+.flaticon-clock-3:before { content: "\f115"; }
+.flaticon-drop:before { content: "\f116"; }
+.flaticon-medical:before { content: "\f117"; }
+.flaticon-repair:before { content: "\f118"; }
+.flaticon-food:before { content: "\f119"; }
+.flaticon-t-shirt:before { content: "\f11a"; }
+.flaticon-gallery:before { content: "\f11b"; }
+.flaticon-video:before { content: "\f11c"; }
+.flaticon-landscape:before { content: "\f11d"; }
+.flaticon-support:before { content: "\f11e"; }
+.flaticon-danger:before { content: "\f11f"; }
+.flaticon-settings-1:before { content: "\f120"; }
+.flaticon-money-1:before { content: "\f121"; }
+.flaticon-inbox:before { content: "\f122"; }
+.flaticon-home:before { content: "\f123"; }
+.flaticon-chat:before { content: "\f124"; }
+.flaticon-drawing:before { content: "\f125"; }
+.flaticon-wrench:before { content: "\f126"; }
+.flaticon-worldwide:before { content: "\f127"; }
+.flaticon-clock-2:before { content: "\f128"; }
+.flaticon-button-1:before { content: "\f129"; }
+.flaticon-more:before { content: "\f12a"; }
+.flaticon-toy:before { content: "\f12b"; }
+.flaticon-construction:before { content: "\f12c"; }
+.flaticon-technology-4:before { content: "\f12d"; }
+.flaticon-coins-1:before { content: "\f12e"; }
+.flaticon-book:before { content: "\f12f"; }
+.flaticon-technology-3:before { content: "\f130"; }
+.flaticon-raindrops:before { content: "\f131"; }
+.flaticon-rocket-ship:before { content: "\f132"; }
+.flaticon-signs-1:before { content: "\f133"; }
+.flaticon-menu:before { content: "\f134"; }
+.flaticon-check:before { content: "\f135"; }
+.flaticon-clock-1:before { content: "\f136"; }
+.flaticon-ads:before { content: "\f137"; }
+.flaticon-chrome:before { content: "\f138"; }
+.flaticon-firefox:before { content: "\f139"; }
+.flaticon-close:before { content: "\f13a"; }
+.flaticon-signs:before { content: "\f13b"; }
+.flaticon-user:before { content: "\f13c"; }
+.flaticon-internet-1:before { content: "\f13d"; }
+.flaticon-calendar:before { content: "\f13e"; }
+.flaticon-interface-4:before { content: "\f13f"; }
+.flaticon-file-1:before { content: "\f140"; }
+.flaticon-file:before { content: "\f141"; }
+.flaticon-internet:before { content: "\f142"; }
+.flaticon-technology-2:before { content: "\f143"; }
+.flaticon-line:before { content: "\f144"; }
+.flaticon-add:before { content: "\f145"; }
+.flaticon-photo-camera:before { content: "\f146"; }
+.flaticon-zoom-in:before { content: "\f147"; }
+.flaticon-dress:before { content: "\f148"; }
+.flaticon-favorite-1:before { content: "\f149"; }
+.flaticon-interface-3:before { content: "\f14a"; }
+.flaticon-interface-2:before { content: "\f14b"; }
+.flaticon-pdf:before { content: "\f14c"; }
+.flaticon-coins:before { content: "\f14d"; }
+.flaticon-money:before { content: "\f14e"; }
+.flaticon-bars:before { content: "\f14f"; }
+.flaticon-mail:before { content: "\f150"; }
+.flaticon-button:before { content: "\f151"; }
+.flaticon-question:before { content: "\f152"; }
+.flaticon-cleaning:before { content: "\f153"; }
+.flaticon-bed:before { content: "\f154"; }
+.flaticon-arrows-5:before { content: "\f155"; }
+.flaticon-arrows-4:before { content: "\f156"; }
+.flaticon-arrows-3:before { content: "\f157"; }
+.flaticon-up-arrow:before { content: "\f158"; }
+.flaticon-arrows-2:before { content: "\f159"; }
+.flaticon-arrows-1:before { content: "\f15a"; }
+.flaticon-shopping-cart:before { content: "\f15b"; }
+.flaticon-phone-call:before { content: "\f15c"; }
+.flaticon-multimedia:before { content: "\f15d"; }
+.flaticon-upload:before { content: "\f15e"; }
+.flaticon-musical-note:before { content: "\f15f"; }
+.flaticon-printer:before { content: "\f160"; }
+.flaticon-download-1:before { content: "\f161"; }
+.flaticon-avatar:before { content: "\f162"; }
+.flaticon-draw:before { content: "\f163"; }
+.flaticon-favorite:before { content: "\f164"; }
+.flaticon-download:before { content: "\f165"; }
+.flaticon-magnifying-glass:before { content: "\f166"; }
+.flaticon-settings:before { content: "\f167"; }
+.flaticon-heart:before { content: "\f168"; }
+.flaticon-telephone:before { content: "\f169"; }
+.flaticon-people:before { content: "\f16a"; }
+.flaticon-washing:before { content: "\f16b"; }
+.flaticon-house:before { content: "\f16c"; }
+.flaticon-down-arrow:before { content: "\f16d"; }
+.flaticon-layout:before { content: "\f16e"; }
+.flaticon-safari-logo:before { content: "\f16f"; }
+.flaticon-plus-button:before { content: "\f170"; }
+.flaticon-loading:before { content: "\f171"; }
+.flaticon-technology-1:before { content: "\f172"; }
+.flaticon-shield:before { content: "\f173"; }
+.flaticon-arrows:before { content: "\f174"; }
+.flaticon-sofa:before { content: "\f175"; }
+.flaticon-nature:before { content: "\f176"; }
+.flaticon-interphone:before { content: "\f177"; }
+.flaticon-technology:before { content: "\f178"; }
+.flaticon-instagram-logo:before { content: "\f179"; }
+.flaticon-pipes:before { content: "\f17a"; }
+.flaticon-square:before { content: "\f17b"; }
+.flaticon-man-user:before { content: "\f17c"; }
+.flaticon-movie:before { content: "\f17d"; }
+.flaticon-desatascador:before { content: "\f17e"; }
+.flaticon-valentines-heart:before { content: "\f17f"; }
+.flaticon-interface-1:before { content: "\f180"; }
+.flaticon-transport:before { content: "\f181"; }
+.flaticon-bank-building:before { content: "\f182"; }
+.flaticon-computer-screen:before { content: "\f183"; }
+.flaticon-clock:before { content: "\f184"; }
+.flaticon-interface:before { content: "\f185"; }
+.flaticon-searching-magnifying-glass:before { content: "\f186"; }
+.flaticon-left-arrow-key:before { content: "\f187"; }
+.flaticon-keyboard-right-arrow-button:before { content: "\f188"; }
+.flaticon-check-symbol:before { content: "\f189"; }
+.flaticon-menu-button:before { content: "\f18a"; }
+.flaticon-delete:before { content: "\f18b"; }
+.flaticon-facebook-logo:before { content: "\f18c"; }
+.flaticon-circle:before { content: "\f18d"; }
+.flaticon-black:before { content: "\f18e"; }
+.flaticon-facebook-logo-in-circular-button-outlined-social-symbol:before { content: "\f18f"; }
+.flaticon-social:before { content: "\f190"; }
+.flaticon-odnoklassniki-logo-2:before { content: "\f191"; }
+.flaticon-vk-social-logotype:before { content: "\f192"; }
+.flaticon-odnoklassniki-logo-1:before { content: "\f193"; }
+.flaticon-odnoklassniki-logo:before { content: "\f194"; }
+.flaticon-checklist-on-a-paper-with-a-pencil:before { content: "\f195"; }
+.flaticon-yes-button-circular-outline:before { content: "\f196"; }
+.flaticon-three:before { content: "\f197"; }
+.flaticon-map-marker-point:before { content: "\f198"; }
+.flaticon-ball:before { content: "\f199"; }
+.flaticon-youtube-logo:before { content: "\f19a"; }
+.flaticon-configuration-gears:before { content: "\f19b"; }
+.flaticon-squares:before { content: "\f19c"; }

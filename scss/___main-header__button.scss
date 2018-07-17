@@ -1,0 +1,37 @@
+.main-header__button-container{
+  flex: 0 0 240px;
+  width: 240px;
+}
+
+.main-header__button{
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+
+
+
+}
+
+@media ( max-width: 992px ) {
+
+  .main-header__button{
+
+  }
+
+}
+
+@media ( max-width: 768px ) {
+
+
+
+}
+
+@media ( max-width: 576px ) {
+
+  .main-header__button-container{
+    display: inline-block;
+  }
+
+}

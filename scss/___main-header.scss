@@ -1,0 +1,39 @@
+.main-header{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+@media (max-width: 1200px) {
+
+
+
+}
+
+@media ( max-width: 992px ) {
+
+  .main-header{
+    height: 80px;
+  }
+
+}
+
+@media ( max-width: 768px ) {
+
+
+
+}
+
+@media ( max-width: 576px ) {
+
+  .main-header{
+    height: 100px;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+}
